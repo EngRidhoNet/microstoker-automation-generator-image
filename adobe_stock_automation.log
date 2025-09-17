@@ -1,0 +1,281 @@
+2025-09-17 05:47:37,365 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 05:47:37,980 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 05:47:38,000 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 05:47:38,001 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 05:47:56,362 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 05:47:56,367 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 05:47:56,368 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 05:48:01,718 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:48:02,695 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 05:48:02,695 - scraper - INFO - 🚀 Starting trend scraping from multiple sources...
+2025-09-17 05:48:02,695 - scraper - INFO - 🔍 Scraping Shutterstock trends...
+2025-09-17 05:48:03,247 - scraper - WARNING - ⚠️ No trends found from shutterstock
+2025-09-17 05:48:05,993 - scraper - INFO - 🔍 Scraping Unsplash trends...
+2025-09-17 05:48:07,334 - scraper - INFO - ✅ Found 0 trends from Unsplash
+2025-09-17 05:48:07,335 - scraper - WARNING - ⚠️ No trends found from unsplash
+2025-09-17 05:48:10,391 - scraper - INFO - 🔍 Scraping Pexels trends...
+2025-09-17 05:48:10,795 - scraper - INFO - ✅ Found 33 trends from Pexels
+2025-09-17 05:48:10,796 - scraper - INFO - ✅ Successfully scraped 8 trends from pexels
+2025-09-17 05:48:14,000 - scraper - INFO - 🔍 Getting Google Trends data...
+2025-09-17 05:48:21,162 - scraper - INFO - ✅ Found 35 trends from Google
+2025-09-17 05:48:21,163 - scraper - INFO - ✅ Successfully scraped 10 trends from google
+2025-09-17 05:48:23,874 - scraper - INFO - ✅ Successfully scraped 15 trends from market
+2025-09-17 05:48:26,219 - scraper - INFO - 🎉 Successfully collected 15 unique trends from 3 sources
+2025-09-17 05:48:26,233 - __main__ - INFO - ✅ Scraped 15 trends from 3 sources
+2025-09-17 05:48:26,233 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 05:48:26,233 - __main__ - INFO - ✅ Processed 15 keywords with market intelligence
+2025-09-17 05:48:26,235 - __main__ - INFO - ✅ Processed 15 keywords
+2025-09-17 05:48:26,235 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 05:48:32,696 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:48:42,024 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:48:52,915 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:48:55,124 - __main__ - INFO - ✅ Generated 3 images (0 AI, 3 placeholders)
+2025-09-17 05:48:55,125 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 05:48:56,789 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 05:48:56,789 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 05:48:56,793 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 05:48:56,793 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 05:48:56,794 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 05:48:56,796 - __main__ - INFO - 🎉 Daily workflow completed successfully in 1.01 minutes!
+2025-09-17 05:48:56,796 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files
+2025-09-17 05:57:05,011 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 05:57:05,799 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 05:57:05,805 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 05:57:05,805 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 05:57:42,476 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 05:57:43,198 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 05:57:43,202 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 05:57:43,205 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 05:57:48,058 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 05:57:48,059 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 05:57:48,059 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 05:57:53,176 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:57:53,795 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 05:57:53,795 - scraper - INFO - 🚀 Starting trend scraping from multiple sources...
+2025-09-17 05:57:53,795 - scraper - INFO - 🔍 Scraping Shutterstock trends...
+2025-09-17 05:57:54,326 - scraper - WARNING - ⚠️ No trends found from shutterstock
+2025-09-17 05:57:57,458 - scraper - INFO - 🔍 Scraping Unsplash trends...
+2025-09-17 05:57:58,594 - scraper - INFO - ✅ Found 0 trends from Unsplash
+2025-09-17 05:57:58,595 - scraper - WARNING - ⚠️ No trends found from unsplash
+2025-09-17 05:58:01,182 - scraper - INFO - 🔍 Scraping Pexels trends...
+2025-09-17 05:58:02,326 - scraper - WARNING - ⚠️ No trends found from pexels
+2025-09-17 05:58:04,400 - scraper - INFO - 🔍 Getting Google Trends data...
+2025-09-17 05:58:11,543 - scraper - INFO - ✅ Found 35 trends from Google
+2025-09-17 05:58:11,544 - scraper - INFO - ✅ Successfully scraped 10 trends from google
+2025-09-17 05:58:15,122 - scraper - INFO - ✅ Successfully scraped 15 trends from market
+2025-09-17 05:58:18,928 - scraper - INFO - 🎉 Successfully collected 15 unique trends from 2 sources
+2025-09-17 05:58:18,937 - __main__ - INFO - ✅ Scraped 15 trends from 2 sources
+2025-09-17 05:58:18,937 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 05:58:18,938 - __main__ - INFO - ✅ Processed 15 keywords with market intelligence
+2025-09-17 05:58:18,939 - __main__ - INFO - ✅ Processed 15 keywords
+2025-09-17 05:58:18,939 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 05:58:26,921 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:58:39,471 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:58:56,929 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 05:59:03,862 - __main__ - INFO - ✅ Generated 3 images (3 AI, 0 placeholders)
+2025-09-17 05:59:03,863 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 05:59:05,894 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 05:59:05,894 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 05:59:05,909 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 05:59:05,909 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 05:59:05,909 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 05:59:05,912 - __main__ - INFO - 🎉 Daily workflow completed successfully in 1.3 minutes!
+2025-09-17 05:59:05,912 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files
+2025-09-17 06:03:48,105 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 06:03:48,698 - __main__ - WARNING - ⚠️ Generator module not found: cannot import name 'test_gemini_connection' from 'generator' (/Users/ridhoauliarahman/Library/CloudStorage/GoogleDrive-ridho.aulia7324@gmail.com/My Drive/Coding/adobe_stock/generator.py)
+2025-09-17 06:03:48,702 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 06:03:48,702 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 06:03:50,671 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 06:03:50,671 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 06:03:50,671 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 06:03:50,672 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 06:03:50,672 - scraper - INFO - 🚀 Starting trend scraping from multiple sources...
+2025-09-17 06:03:50,672 - scraper - INFO - 🔍 Scraping Shutterstock trends...
+2025-09-17 06:03:50,889 - scraper - WARNING - ⚠️ No trends found from shutterstock
+2025-09-17 06:03:54,238 - scraper - INFO - 🔍 Scraping Unsplash trends...
+2025-09-17 06:03:54,780 - scraper - INFO - ✅ Found 0 trends from Unsplash
+2025-09-17 06:03:54,780 - scraper - WARNING - ⚠️ No trends found from unsplash
+2025-09-17 06:03:58,416 - scraper - INFO - 🔍 Scraping Pexels trends...
+2025-09-17 06:03:58,635 - scraper - WARNING - ⚠️ No trends found from pexels
+2025-09-17 06:04:01,741 - scraper - INFO - 🔍 Getting Google Trends data...
+2025-09-17 06:04:08,606 - scraper - INFO - ✅ Found 35 trends from Google
+2025-09-17 06:04:08,608 - scraper - INFO - ✅ Successfully scraped 10 trends from google
+2025-09-17 06:04:12,559 - scraper - INFO - ✅ Successfully scraped 15 trends from market
+2025-09-17 06:04:14,785 - scraper - INFO - 🎉 Successfully collected 15 unique trends from 2 sources
+2025-09-17 06:04:14,792 - __main__ - INFO - ✅ Scraped 15 trends from 2 sources
+2025-09-17 06:04:14,792 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 06:04:14,793 - __main__ - INFO - ✅ Processed 15 keywords with market intelligence
+2025-09-17 06:04:14,793 - __main__ - INFO - ✅ Processed 15 keywords
+2025-09-17 06:04:14,793 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 06:04:14,794 - __main__ - WARNING - ⚠️ Generator not available, creating mock images
+2025-09-17 06:04:14,794 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 06:04:16,109 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 06:04:16,109 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 06:04:16,111 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 06:04:16,111 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 06:04:16,112 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 06:04:16,113 - __main__ - INFO - 🎉 Daily workflow completed successfully in 0.42 minutes!
+2025-09-17 06:04:16,114 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files
+2025-09-17 06:04:24,429 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 06:04:24,958 - __main__ - WARNING - ⚠️ Generator module not found: cannot import name 'test_gemini_connection' from 'generator' (/Users/ridhoauliarahman/Library/CloudStorage/GoogleDrive-ridho.aulia7324@gmail.com/My Drive/Coding/adobe_stock/generator.py)
+2025-09-17 06:04:24,962 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 06:04:24,962 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 06:04:50,795 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 06:04:51,514 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 06:04:51,517 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 06:04:51,517 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 06:05:00,820 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 06:05:37,237 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 06:05:37,998 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 06:05:38,002 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 06:05:38,002 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 06:05:47,631 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 06:05:52,806 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 06:05:53,327 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 06:05:53,331 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 06:05:53,331 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 06:05:55,027 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 06:05:55,027 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 06:05:55,027 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 06:06:00,181 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 06:06:01,192 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 06:06:01,193 - scraper - INFO - 🚀 Starting trend scraping from multiple sources...
+2025-09-17 06:06:01,193 - scraper - INFO - 🔍 Scraping Shutterstock trends...
+2025-09-17 06:06:01,799 - scraper - WARNING - ⚠️ No trends found from shutterstock
+2025-09-17 06:06:04,649 - scraper - INFO - 🔍 Scraping Unsplash trends...
+2025-09-17 06:06:05,588 - scraper - INFO - ✅ Found 0 trends from Unsplash
+2025-09-17 06:06:05,588 - scraper - WARNING - ⚠️ No trends found from unsplash
+2025-09-17 06:06:07,625 - scraper - INFO - 🔍 Scraping Pexels trends...
+2025-09-17 06:06:07,872 - scraper - WARNING - ⚠️ No trends found from pexels
+2025-09-17 06:06:10,798 - scraper - INFO - 🔍 Getting Google Trends data...
+2025-09-17 06:06:17,738 - scraper - INFO - ✅ Found 35 trends from Google
+2025-09-17 06:06:17,739 - scraper - INFO - ✅ Successfully scraped 10 trends from google
+2025-09-17 06:06:21,521 - scraper - INFO - ✅ Successfully scraped 15 trends from market
+2025-09-17 06:06:25,366 - scraper - INFO - 🎉 Successfully collected 15 unique trends from 2 sources
+2025-09-17 06:06:25,381 - __main__ - INFO - ✅ Scraped 15 trends from 2 sources
+2025-09-17 06:06:25,381 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 06:06:25,382 - __main__ - INFO - ✅ Processed 15 keywords with market intelligence
+2025-09-17 06:06:25,384 - __main__ - INFO - ✅ Processed 15 keywords
+2025-09-17 06:06:25,384 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 06:06:33,310 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 06:06:44,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 06:06:55,968 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 06:06:59,294 - __main__ - INFO - ✅ Generated 3 images (3 AI, 0 placeholders)
+2025-09-17 06:06:59,294 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 06:06:59,519 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 06:06:59,519 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 06:06:59,524 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 06:06:59,524 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 06:06:59,526 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 06:06:59,528 - __main__ - INFO - 🎉 Daily workflow completed successfully in 1.08 minutes!
+2025-09-17 06:06:59,528 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files
+2025-09-17 10:54:41,707 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 10:54:42,435 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 10:54:42,438 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 10:54:42,438 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 10:54:44,856 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 10:54:44,856 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 10:54:44,857 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 10:54:50,280 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 10:54:51,226 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 10:54:51,227 - scraper - INFO - 🚀 Starting enhanced trend scraping from multiple sources...
+2025-09-17 10:54:51,230 - scraper - INFO - 🔍 Scraping Adobe Stock insights...
+2025-09-17 10:54:51,231 - scraper - INFO - 🔍 Scraping Shutterstock trends...
+2025-09-17 10:54:51,231 - scraper - INFO - 🔍 Scraping Getty Images trends...
+2025-09-17 10:54:51,761 - scraper - INFO - ✅ Found 0 trends from Getty Images
+2025-09-17 10:54:51,761 - scraper - INFO - 🔍 Scraping Unsplash trends...
+2025-09-17 10:54:51,761 - scraper - WARNING - ⚠️ No trends found from getty_images
+2025-09-17 10:54:54,417 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-17 10:54:54,420 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-17 10:54:54,430 - scraper - INFO - ✅ Found 0 trends from Adobe Stock insights
+2025-09-17 10:54:54,430 - scraper - INFO - 🔍 Scraping Pexels trends...
+2025-09-17 10:54:54,431 - scraper - WARNING - ⚠️ No trends found from adobe_insights
+2025-09-17 10:54:54,631 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-17 10:54:56,326 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-17 10:54:58,634 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-17 10:54:59,477 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-17 10:55:00,053 - scraper - INFO - ✅ Found 0 trends from Unsplash
+2025-09-17 10:55:00,053 - scraper - INFO - 🔍 Scraping Google Trends...
+2025-09-17 10:55:00,054 - scraper - WARNING - ⚠️ No trends found from unsplash
+2025-09-17 10:55:00,144 - scraper - INFO - ✅ Found 0 trends from Pexels
+2025-09-17 10:55:00,145 - scraper - WARNING - ⚠️ No trends found from pexels
+2025-09-17 10:55:00,145 - scraper - INFO - ✅ Successfully scraped 15 trends from market_trends
+2025-09-17 10:55:01,077 - scraper - INFO - ✅ Found 0 trends from Google
+2025-09-17 10:55:01,078 - scraper - WARNING - ⚠️ No trends found from google_trends
+2025-09-17 10:55:01,494 - scraper - INFO - ✅ Found 0 trends from Shutterstock
+2025-09-17 10:55:01,495 - scraper - WARNING - ⚠️ No trends found from shutterstock
+2025-09-17 10:55:01,495 - scraper - INFO - 🎉 Successfully collected 15 unique trends
+2025-09-17 10:55:01,495 - scraper - INFO - 📊 Sources used: market_trends
+2025-09-17 10:55:01,495 - scraper - INFO - ⏱️ Scraping completed in 10.27 seconds
+2025-09-17 10:55:01,497 - __main__ - INFO - ✅ Scraped 15 trends from 1 sources
+2025-09-17 10:55:01,497 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 10:55:01,497 - __main__ - INFO - ✅ Processed 15 keywords with market intelligence
+2025-09-17 10:55:01,498 - __main__ - INFO - ✅ Processed 15 keywords
+2025-09-17 10:55:01,498 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 10:55:09,759 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 10:55:21,262 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 10:55:32,853 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 10:55:36,163 - __main__ - INFO - ✅ Generated 3 images (3 AI, 0 placeholders)
+2025-09-17 10:55:36,164 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 10:55:36,413 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 10:55:36,413 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 10:55:36,417 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 10:55:36,418 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 10:55:36,422 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 10:55:36,424 - __main__ - INFO - 🎉 Daily workflow completed successfully in 0.86 minutes!
+2025-09-17 10:55:36,424 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files
+2025-09-17 11:09:43,532 - __main__ - WARNING - ⚠️ Scraper module not found: cannot import name 'scrape_adobe_trends' from 'scraper' (/Users/ridhoauliarahman/Library/CloudStorage/GoogleDrive-ridho.aulia7324@gmail.com/My Drive/Coding/adobe_stock/scraper.py)
+2025-09-17 11:09:44,297 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 11:09:44,301 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 11:09:44,301 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 11:09:47,854 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 11:09:47,855 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 11:09:47,855 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 11:09:54,727 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:09:55,956 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 11:09:55,956 - __main__ - WARNING - ⚠️ Using fallback trend data
+2025-09-17 11:09:55,957 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 11:09:55,957 - __main__ - INFO - ✅ Processed 10 keywords with market intelligence
+2025-09-17 11:09:55,958 - __main__ - INFO - ✅ Processed 10 keywords
+2025-09-17 11:09:55,958 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 11:10:06,168 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:10:18,826 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:10:30,235 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:10:33,984 - __main__ - INFO - ✅ Generated 3 images (3 AI, 0 placeholders)
+2025-09-17 11:10:33,984 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 11:10:34,220 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 11:10:34,220 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 11:10:34,227 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 11:10:34,227 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 11:10:34,229 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 11:10:34,231 - __main__ - INFO - 🎉 Daily workflow completed successfully in 0.77 minutes!
+2025-09-17 11:10:34,231 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files
+2025-09-17 11:17:46,754 - __main__ - INFO - ✅ Scraper module loaded successfully
+2025-09-17 11:17:47,318 - __main__ - INFO - ✅ Generator module loaded successfully
+2025-09-17 11:17:47,323 - __main__ - INFO - ✅ Metadata module loaded successfully
+2025-09-17 11:17:47,323 - __main__ - INFO - ✅ Config module loaded successfully
+2025-09-17 11:17:49,729 - __main__ - INFO - 🚀 Starting daily workflow for 2025-09-17
+2025-09-17 11:17:49,729 - __main__ - INFO - 📁 Output directory: output/2025-09-17
+2025-09-17 11:17:49,729 - __main__ - INFO - 🔍 Running system health check...
+2025-09-17 11:17:56,397 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:17:57,149 - __main__ - INFO - 📊 Scraping trending data from multiple sources...
+2025-09-17 11:17:57,153 - trend-scraper - INFO - Source 'pytrends' → no data
+2025-09-17 11:18:05,494 - trend-scraper - INFO - Source 'unsplash' → 30 trends
+2025-09-17 11:18:09,704 - trend-scraper - INFO - Source 'pexels_api' → 30 trends
+2025-09-17 11:18:09,708 - __main__ - INFO - ✅ Scraped 20 trends from 3 sources
+2025-09-17 11:18:09,708 - __main__ - INFO - 🔍 Processing and ranking keywords...
+2025-09-17 11:18:09,708 - __main__ - INFO - ✅ Processed 20 keywords with market intelligence
+2025-09-17 11:18:09,710 - __main__ - INFO - ✅ Processed 20 keywords
+2025-09-17 11:18:09,710 - __main__ - INFO - 🎨 Generating images...
+2025-09-17 11:18:17,268 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:18:28,222 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:18:38,555 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict "HTTP/1.1 200 OK"
+2025-09-17 11:18:41,930 - __main__ - INFO - ✅ Generated 3 images (3 AI, 0 placeholders)
+2025-09-17 11:18:41,930 - __main__ - INFO - 📝 Creating comprehensive metadata...
+2025-09-17 11:18:42,146 - __main__ - INFO - ✅ Created metadata for 3 images
+2025-09-17 11:18:42,146 - __main__ - INFO - 📦 Preparing upload-ready files...
+2025-09-17 11:18:42,151 - __main__ - INFO - ✅ Prepared 3 files for upload
+2025-09-17 11:18:42,151 - __main__ - INFO - 📊 Generating workflow report...
+2025-09-17 11:18:42,151 - __main__ - INFO - 🗑️ Cleaning up old data...
+2025-09-17 11:18:42,153 - __main__ - INFO - 🎉 Daily workflow completed successfully in 0.87 minutes!
+2025-09-17 11:18:42,153 - __main__ - INFO - 📊 Summary: 3 images created, 3 upload-ready files

@@ -1,0 +1,6 @@
+.env
+output
+adobe_stock.automation.log
+__pycache__
+enhanced_trends_data.json
+enhanced_test_output 
